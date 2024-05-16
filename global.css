@@ -1,0 +1,163 @@
+/* global.css */
+
+/* Reset default styles */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font family */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Add some basic styling */
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fafafa;
+    text-shadow: #414141 .5px .5px 0;
+    font-style: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+button {
+
+    background-color: #ffff00;
+    color: rgb(0, 0, 0);
+    padding: 20px 5px;
+    margin: 8px 300px;
+    border: rgba(255, 255, 255, 0.396) 5px solid;
+    cursor: pointer;
+    width: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#link {
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: #a6a6a6 1px 1px 0;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+ol {
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    /* border: 2px solid #ffffff; */
+    border-radius: 25px;
+    background-color: #000000;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    margin: 1%;
+    text-align: center;
+    
+}
+
+img {
+    width: 25%;
+    height: 25%;h1 {
+    font-size: 40px;
+    /* rest of your styles */
+}
+
+p {
+    font-size: 14px;
+    /* rest of your styles */
+}
+
+button {
+    padding: 10px 10px;
+    border-radius: 20%;
+    /* rest of your styles */
+}
+
+#link {
+    font-size: 30px;
+    /* rest of your styles */
+}
+
+ul {
+    font-size: 18px;
+    /* rest of your styles */
+}
+
+ol {
+    border-radius: 20px;
+    /* rest of your styles */
+}
+
+li {
+    padding: 5px;
+    margin: 0.5%;
+    /* rest of your styles */
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    /* rest of your styles */
+}
+
+#back {
+    padding: 10px 20px;
+    border-radius: 8%;
+    /* rest of your styles */
+}
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+li::marker {
+    margin-left: 5px;
+    color: #ffdc14;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#back {
+    background-color: #ffdc14;
+    color: #000000;
+    padding: 15px 30px;
+    margin: 8px 8px;
+    cursor: pointer;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10%;
+}
